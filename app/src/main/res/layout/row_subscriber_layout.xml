@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:weightSum="9">
+
+    <LinearLayout
+        style="@style/layoutTableRow"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/txtId"
+            style="@style/txtTableRow"
+            android:text="aaaaa"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layoutTableRow"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/txtName"
+            style="@style/txtTableRow"
+            android:text="aaaaa"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layoutTableRow"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/txtData"
+            style="@style/txtTableRow"
+            android:text="aaaaa"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</LinearLayout>
