@@ -24,7 +24,7 @@
  
 EntityTest.kt or Test.kt //doesn't matter.
 
-class EntityTest {
+    class EntityTest {
     var testId: Long? = null
     var testName: String? = null
     var testSurname: String? = null
@@ -38,7 +38,7 @@ class EntityTest {
         this.testSurname = testSurname
         this.testData = testData
     	}
-}
+    }
 
 Database table column names must match with property names.
 
