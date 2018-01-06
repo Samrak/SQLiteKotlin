@@ -17,5 +17,4 @@ class EntityTest {
         this.testSurname = testSurname
         this.testData = testData
     }
-
 }
