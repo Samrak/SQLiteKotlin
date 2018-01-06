@@ -22,7 +22,7 @@
   
 ### How do I create object and database table mapping? ###
  
-  EntityTest.kt or Test.kt //doesn't matter.
+EntityTest.kt or Test.kt //doesn't matter.
 
 class EntityTest {
     var testId: Long? = null
@@ -75,6 +75,7 @@ Database table column names must match with property names.
 ### How do I use in Project? ###
 
 var helper = SQLiteHelper.getInstance(this) //create your helper file and put it into SQLiteAdapter
+
 var db = SQLiteAdapter(helper)
 
 There is only 4 element to manipulate SQLite Database.
