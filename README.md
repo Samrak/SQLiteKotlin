@@ -20,11 +20,11 @@
 		compile 'com.github.Samrak:SQLiteKotlin:-SNAPSHOT'
 	}
   
-  ### How do I create object and database table mapping? ###
+### How do I create object and database table mapping? ###
  
   EntityTest.kt or Test.kt //doesn't matter.
 
-	class EntityTest {
+class EntityTest {
     var testId: Long? = null
     var testName: String? = null
     var testSurname: String? = null
@@ -38,7 +38,7 @@
         this.testSurname = testSurname
         this.testData = testData
     	}
-	}
+}
 
 Database table column names must match with property names.
 
