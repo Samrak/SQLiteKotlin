@@ -74,23 +74,18 @@ Database table column names must match with property names.
     
 ### How do I use in Project? ###
 
-var helper = SQLiteHelper.getInstance(this) //create your helper file and put it into SQLiteAdapter
-
-var db = SQLiteAdapter(helper)
+    var helper = SQLiteHelper.getInstance(this) //create your helper file and put it into SQLiteAdapter
+    var db = SQLiteAdapter(helper)
 
 There is only 4 element to manipulate SQLite Database.
 
-db.insert(EntityTest(0, "samet", "öztoprak", "data"), "testId")
+    db.insert(EntityTest(0, "samet", "öztoprak", "data"), "testId")
+    db.delete(EntityTest(2, "samet", "öztoprak", "data"), "testId")
+    db.update(EntityTest(3, "samet", "öztoprak", "data"), "testId")
 
-db.delete(EntityTest(2, "samet", "öztoprak", "data"), "testId")
-
-db.update(EntityTest(3, "samet", "öztoprak", "data"), "testId")
-
-val tests = db.select(EntityTest())
-
-val tests = db.select(EntityTest(),"123") // all column with like "123" query
-
-val tests = db.select(EntityTest(),"id","23") // column name and value
+    val tests = db.select(EntityTest())
+    val tests = db.select(EntityTest(),"123") // all column with like "123" query
+    val tests = db.select(EntityTest(),"id","23") // column name and value
 
 ### Contribution guidelines ###
 
