@@ -2,7 +2,7 @@
 
 ### What is this repository for? ###
 
-* Quick suEasy SQLite using in Android with Kotlin Programming.
+* Easy SQLite using in Android with Kotlin Programming.
 * 1.0
 
 ### How do I get set up? ###
